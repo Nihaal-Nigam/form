@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-img {
+    background-image: url('https://i.pinimg.com/originals/cc/2c/63/cc2c635069abac920abe17e15ad0c1d4.jpg');
+    height: cover;
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card {
+    max-width: 600px;
+}
+
+.form-heading {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.errorMessage {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #dc3545;
+}
+
+.gender-field-heading {
+    font-size: 18px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+.widht {
+    min-width: 10%;
+    text-align: center;
+    max-width: 20%;
+}
